@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset (download separately; do not commit)
+data/raw/Warwick_QU_Dataset/
+data/processed/
+
+# Experiment outputs and model artifacts
+outputs/**
+!outputs/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
